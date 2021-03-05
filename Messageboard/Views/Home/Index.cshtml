@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">留言板</h1>
+    <form name="board" action="board.php" method="post">
+        姓名：<input type="text" name="name"><br>
+        主題：<input type="text" name="subject"><br>
+        內容：<textarea name="content"></textarea><br>
+        <p>
+            <input type="submit" name="submit" value="送出">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" name="Reset" value="清除">
+    </form>
+    <p>Learn about <a href="https://www.google.com/?hl=zh_tw">Google</a>.</p>
+</div>
